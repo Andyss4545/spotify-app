@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+.header .active{
+    background-color: black;
+}
+
+.header_left{
+     flex: 0.6;
+     min-width: 70px;
+     background-color: white;
+     color: gray;
+     border-radius: 30px;
+     display: flex;
+     align-items: center;
+     padding: 10px;
+}
+
+.header_left > input{
+    border: none;
+    width: 100%;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.header_right > h4{
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.header_avatar{
+    height: 30px !important;
+    width: 30px !important;
+}

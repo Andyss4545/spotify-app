@@ -1,0 +1,23 @@
+
+.footer_controls{
+    flex: 0.4;
+    display: flex;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+    margin-left: 30px;
+ }
+
+
+ .footer_icon:hover, .footer_green:hover{
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+}
+
+.footer_green{
+  color: #1ed15e;
+}
